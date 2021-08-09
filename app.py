@@ -7,5 +7,5 @@ def index():
     return "<p>Hello, World!</p>"
 
 @app.route("/test")
-def index():
-    return jsonify({'test':'test})
+def test():
+    return jsonify({'test':'test'})
